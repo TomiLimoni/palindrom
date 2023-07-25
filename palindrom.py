@@ -1,3 +1,3 @@
-def f(s):
-    return s == s[::-1]
-print(f(input('Введите строку: ')))
+def palindrom(word):
+    return word == word[::-1]
+print(palindrom(input('Введите строку: ')))
